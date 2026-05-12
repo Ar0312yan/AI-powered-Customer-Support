@@ -1,0 +1,24 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# data (can be large, regenerate with generate_dataset.py)
+data/
+*.csv
+
+# database file
+*.db
+
+# ide
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
