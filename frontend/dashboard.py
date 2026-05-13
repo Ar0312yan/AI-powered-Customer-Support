@@ -54,9 +54,9 @@ with tab1:
     if data:
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Tickets", f"{data['total_tickets']:,}")
-        col2.metric("Avg Frustration", f"{data['avg_frustration']} / 10")
+        col2.metric("Avg Frustration", f"{data['avg_frustration'] or 0} / 10")
         col3.metric("High Priority", f"{data['high_priority_count']:,}")
-        col4.metric("Revenue at Risk", f"${data['total_revenue_risk']:,.0f}")
+        col4.metric("Revenue at Risk", f"${data['total_revenue_risk'] or 0:,.0f}")
 
         st.divider()
 
