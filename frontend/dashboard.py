@@ -8,7 +8,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "backend"))
 
-API = "http://localhost:8000"
+API = "https://ai-powered-customer-support-u3rt.onrender.com"
 
 st.set_page_config(
     page_title="SupportIQ",
