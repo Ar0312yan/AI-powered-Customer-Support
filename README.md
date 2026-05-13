@@ -35,7 +35,7 @@ Kept the stack simple on purpose — SQLite means no database setup, Streamlit m
 ### Setup
 
 ```
-git clone https://github.com/your-username/supportiq
+git clone https://github.com/Ar0312yan/AI-powered-Customer-Support
 cd supportiq
 ```
 
